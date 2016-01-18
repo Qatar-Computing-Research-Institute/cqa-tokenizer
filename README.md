@@ -5,10 +5,12 @@ Preprocessing scripts for Community Question Answering. (Semeval task)
 
 ##Usage:
 
- parseCQAData.py CQA.csv IN.txt
- process.sh IN.txt
-#results will be in IN.txt.tc
+  ```
+  parseCQAData.py CQA.csv IN.txt
+   process.sh IN.txt
+ ```
 
+ results will be in IN.txt.tc
 
 ## Third party:
 Uses the twokenizer tokenizer `https://github.com/brendano/tweetmotif`
